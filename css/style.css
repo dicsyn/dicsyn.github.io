@@ -75,10 +75,21 @@ svg {
 @media screen and (max-width: 1000px) {
     .homecol1 {
         text-align: center;
-        margin-top: 7rem;
+        margin-top: 4rem;
+    }
+    .homecol2 {
+        margin-top: 5rem;
     }
     .title {
-        margin-top: 3rem;
+        margin-top: 2rem;
+    }
+    .page-contents {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    .contactpage {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
     }
     .dickyprofile {
         float: none;
