@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-weight: 800;
+}
+h3 {
+    font-weight: 600;
+}
+h5 {
+    font-weight: 400;
+}
+nav {
+    font-weight: 600;
+}
+.navbar {
+    padding-top: 2rem;
+}
+svg {
+    position: absolute;
+    z-index: -1;
+}
+.img-profile {
+    position: relative;
+}
+.homecol1 {
+    margin-top: 9rem;
+}
+.homecol2 {
+    margin-top: 9rem;
+}
+.title {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.page-contents {
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+.infodiri {
+    text-align: left;
+}
+.dickyprofile {
+    width: 30%;
+    margin-right: 2rem;
+    float: left;
+}
+.html, .css {
+    width: 38%;
+}
+.bootstrap {
+    width: 47%;
+}
+.contactpage {
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#footer {
+    background:linear-gradient(to right, #00d084ff, #0693e3ff); 
+    text-align: center;
+    padding: 1rem;
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1100px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .homecol1 {
+        text-align: center;
+        margin-top: 7rem;
+    }
+    .title {
+        margin-top: 3rem;
+    }
+    .dickyprofile {
+        float: none;
+        justify-content: center;
+        margin: 0;
+    }
+    .infodiri {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    .html, .css, .bootstrap {
+        margin-bottom: 3rem;
+    }
+    .html, .css {
+        width: 30%;
+    }
+    .bootstrap {
+        width: 37%;
+    }
+    .emailus {
+        padding-bottom: 2rem;
+    }
+}
